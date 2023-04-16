@@ -125,7 +125,7 @@ export default function Ordenha() {
     const [refrescador, setRefrescador] = useState(null);
     const [refrescadorHorarios, setRefrescadorHorarios] = useState(null);
 
-  
+
     const [escopoMin, setEscopoMin] = useState(0);
     const [escopoMinBoiler, setEscopoMinBoiler] = useState(0);
 
@@ -159,7 +159,7 @@ export default function Ordenha() {
 
 
 
-   
+
 
     async function excluir(id) {
 
@@ -1913,7 +1913,7 @@ export default function Ordenha() {
 
 
 
-            <Box style={{ backgroundColor: 'Silver', width: '100%' }}>
+            <Box style={{ backgroundColor: 'white', width: '100%' }}>
                 <AppBar position="static" >
 
                     <Tabs
@@ -1935,6 +1935,18 @@ export default function Ordenha() {
 
                     </Tabs>
                 </AppBar>
+                <Grid
+                    container
+                    item xs={12} sm={12} md={12} lg={12} xl={12}
+                    alignItems={"center"}
+                    justifyContent={"center"}
+                    style={{bakgroundColor:'white', paddingTop: 10, paddingBottom: 10}}
+                >
+
+                    <Button href="/graficos" variant="contained" color="primary">
+                        Ir para gráficos
+                    </Button>
+                </Grid>
             </Box>
 
             <SwipeableViews
@@ -2216,7 +2228,7 @@ export default function Ordenha() {
                                 </Grid>
 
 
-                              
+
 
                             </Grid>
 
@@ -2755,13 +2767,13 @@ export default function Ordenha() {
 
 
 
-                             
 
-                               
 
-                               
 
-                              
+
+
+
+
 
 
                             </Grid>
@@ -3244,9 +3256,9 @@ export default function Ordenha() {
 
 
 
-                              
 
-                                
+
+
 
 
                             </Grid>
@@ -3909,9 +3921,9 @@ export default function Ordenha() {
 
 
 
-                               
 
-                              
+
+
 
 
                             </Grid>
