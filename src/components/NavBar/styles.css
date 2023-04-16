@@ -1,0 +1,82 @@
+.color-nav {
+  background: rgba(0,0,0,0.0);    height: 15px;
+    padding-left: '50%';
+    font-size: 22px;
+    color: white;
+}
+
+
+#nav-dropdown{
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    background: rgba(0,0,0,0.0);
+  }
+
+  
+#nav-dropdown-black{
+  color: black;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  background: rgba(0,0,0,0.0);
+}
+
+
+
+.nav-dropdown:hover{
+   color:white;
+}
+
+
+#nav-link{
+    font-size: 22px;
+    color: white;
+}
+
+#nav-link-black{
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+#nav-link-dropdown{
+  font-size: 22px;
+  color: black;
+}
+
+
+#nav-link-inicio{
+  font-size: 22px;
+  color: black;
+}
+
+#nav-link-mobile{
+  font-size: 22px;
+  color: black;
+  background: black; 
+}
+
+.nav-link:hover {
+  text-decoration: underline; 
+  }
+
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+
+.nav-item .dropdown-menu {
+  background-color: white;
+}
+  
+  .nav-item .dropdown-item {
+    color: black;
+    background-color: white;  
+    font-size: 22px;
+  }
+  
+  .nav-item .dropdown-item:hover {
+    color: black;
+  }
