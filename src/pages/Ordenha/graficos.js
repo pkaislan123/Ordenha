@@ -951,7 +951,7 @@ export default function GraficoOrdenha() {
 
 
 
-            <Box style={{ backgroundColor: 'Silver', width: '100%' }}>
+            <Box style={{ backgroundColor: 'white', width: '100%' }}>
                 <AppBar position="static" >
 
                     <Tabs
@@ -972,6 +972,18 @@ export default function GraficoOrdenha() {
 
                     </Tabs>
                 </AppBar>
+                <Grid
+                    container
+                    item xs={12} sm={12} md={12} lg={12} xl={12}
+                    alignItems={"center"}
+                    justifyContent={"center"}
+                    style={{bakgroundColor:'white', paddingTop: 10, paddingBottom: 10}}
+                >
+
+                    <Button href="/" variant="contained" color="primary">
+                        Ir para Controle
+                    </Button>
+                </Grid>
             </Box>
 
             <SwipeableViews
